@@ -1,0 +1,17 @@
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+footer a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+footer a svg:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
