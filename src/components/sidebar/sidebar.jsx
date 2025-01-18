@@ -3,11 +3,10 @@ import logo from './logo.svg';
 import { FaHome, FaPhone } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { AiFillProduct } from "react-icons/ai";
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function SideBar() {
-    //const [showSide, setShowSide] = useState(true);
 
     return (
         <div className='sidebar active d-none d-sm-block'>
@@ -17,24 +16,24 @@ export default function SideBar() {
             <img src={logo} alt="Logo" className='logo' />
             <ul>
                 <li>
-                    <a href="/" title="Home">
+                    <Link to="/" title="Home">
                         <FaHome /> Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/" title="Our Products">
+                    <Link to="/products" title="Our Products">
                         <AiFillProduct /> Our Products
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/" title="Members">
+                    <Link to="/members" title="Members">
                         <IoIosPeople /> Members
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/" title="Contact Us">
+                    <Link to="/contact" title="Contact Us">
                         <FaPhone /> Contact us
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>

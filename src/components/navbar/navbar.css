@@ -3,11 +3,15 @@
     color: #FFD700;
 }
 
-.nav-link {
-    color: #FFD700 !important;
+.link{
+    color: #FFD700 ; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+    padding: 8px; 
 }
-.nav-link:hover {
-    padding: 10px;
+
+.link:hover {
+    padding: 15px;
     background-color: #495057;
     border-radius: 4px;
 }
