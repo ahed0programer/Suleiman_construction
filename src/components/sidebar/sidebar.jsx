@@ -1,20 +1,22 @@
 import './sidebar.css';
-import logo from './logo.svg';
+import logo from './logo.png';
 import { FaHome, FaPhone } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { AiFillProduct } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { useState } from 'react';
 
 export default function SideBar() {
+    const [isRight, setIsRight] = useState(false);
+
+    const toggleSidebarPosition = () => {
+        setIsRight(!isRight);
+    };
 
     return (
-        <div className='sidebar active d-none d-sm-block'>
-            <header>
-                <GiHamburgerMenu className="hamburger-icon" />
-            </header>
-            <img src={logo} alt="Logo" className='logo' />
-            <ul>
+        <div className={` d-none d-sm-block sidebar ${isRight ? 'right' : 'left'} active`}>
+            <img src={logo} alt="Logo" className="logo" />
+            <ul className='mb-5 pb-5'>
                 <li>
                     <Link to="/" title="Home">
                         <FaHome /> Home
@@ -36,9 +38,18 @@ export default function SideBar() {
                     </Link>
                 </li>
             </ul>
+            <div className="m-5 py-5"></div> {/*//todo make it better*/}
+            <div className="m-5 py-5"></div> 
+            <button className="toggle-btn" onClick={toggleSidebarPosition}>
+                {isRight ? 'English' : 'Arabic'}
+            </button>
+            <button className="toggle-btn">
+                Light
+            </button>
         </div>
     );
 }
+
 /*
 <div className={showSide ? 'sidebar active' : 'sidebar shrink'}>
             <header>
