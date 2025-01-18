@@ -10,7 +10,38 @@ export default function SideBar() {
     const [showSide, setShowSide] = useState(true);
 
     return (
-        <div className={showSide ? 'sidebar active' : 'sidebar shrink'}>
+        <div className='sidebar active d-none d-sm-block'>
+            <header>
+                <GiHamburgerMenu className="hamburger-icon" />
+            </header>
+            <img src={logo} alt="Logo" className='logo' />
+            <ul>
+                <li>
+                    <a href="/" title="Home">
+                        <FaHome /> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/" title="Our Products">
+                        <AiFillProduct /> Our Products
+                    </a>
+                </li>
+                <li>
+                    <a href="/" title="Members">
+                        <IoIosPeople /> Members
+                    </a>
+                </li>
+                <li>
+                    <a href="/" title="Contact Us">
+                        <FaPhone /> Contact us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    );
+}
+/*
+<div className={showSide ? 'sidebar active' : 'sidebar shrink'}>
             <header>
                 <GiHamburgerMenu onClick={() => setShowSide(!showSide)} className="hamburger-icon" />
             </header>
@@ -38,5 +69,4 @@ export default function SideBar() {
                 </li>
             </ul>
         </div>
-    );
-}
+        */

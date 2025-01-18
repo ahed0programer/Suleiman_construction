@@ -22,7 +22,7 @@
 .sidebar header {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
     padding: 10px;
     background-color: #495057;
     cursor: pointer;
@@ -32,6 +32,7 @@
 .sidebar .hamburger-icon {
     font-size: 30px;
     color: white;
+    margin-left: 20px;
 }
 
 .logo {

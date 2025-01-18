@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #343a40;
+    color: #FFD700;
+}
+
+.nav-link {
+    color: #FFD700 !important;
+}
+.nav-link:hover {
+    padding: 10px;
+    background-color: #495057;
+    border-radius: 4px;
+}
