@@ -73,6 +73,7 @@ ul li a {
 ul li:hover {
     background-color: #495057;
     border-radius: 4px;
+    padding: 20px;
 }
 
 .sidebar.shrink ul li a {

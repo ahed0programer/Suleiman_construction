@@ -7,6 +7,10 @@ export default function MobileNavBar() {
         <Navbar variant="dark" expand="sm" className="d-sm-none">
             <Container>
                 
+            <Navbar.Toggle aria-controls="basic-navbar-nav">
+                    <GiHamburgerMenu style={{ color: "white" }} />
+                </Navbar.Toggle>
+
                 <Navbar.Brand href="#">
                     {/*<img
                         src="https://via.placeholder.com/40"
@@ -17,9 +21,7 @@ export default function MobileNavBar() {
                 </Navbar.Brand>
 
                 
-                <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <GiHamburgerMenu style={{ color: "white" }} />
-                </Navbar.Toggle>
+                
 
                 
                 <Navbar.Collapse id="basic-navbar-nav">
