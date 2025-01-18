@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function SideBar() {
-    const [showSide, setShowSide] = useState(true);
+    //const [showSide, setShowSide] = useState(true);
 
     return (
         <div className='sidebar active d-none d-sm-block'>

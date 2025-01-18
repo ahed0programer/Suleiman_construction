@@ -32,7 +32,7 @@
 .sidebar .hamburger-icon {
     font-size: 30px;
     color: white;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .logo {
@@ -67,7 +67,8 @@ ul li a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between icon and text */
+    gap: 10px; 
+    margin-left: 15px;
 }
 
 ul li:hover {

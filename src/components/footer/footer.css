@@ -3,10 +3,7 @@ footer {
     color: #343a40;
     text-align: center;
 }
-footer a:hover {
-    color: red;
-    text-decoration: underline;
-}
+
 
 footer a svg:hover {
     transform: scale(1.5);
@@ -21,4 +18,16 @@ footer a svg {
 }
 .list-inline-item {
     padding: 5px 10px  !important;
+}
+.list-inline-item:hover {
+    background-color: #E6C200; 
+}
+.list-inline {
+    margin: 5px;
+}
+.footer-text {
+    padding-top: 10px;
+}
+ul.list-inline a{
+    margin: 0;
 }

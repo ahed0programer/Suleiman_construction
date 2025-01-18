@@ -20,7 +20,7 @@ export default function Footer() {
                     <FaLinkedin />
                 </a>
             </div>
-            <div>&copy; 2025 Suleiman. All Rights Reserved.</div>
+            <div className="footer-text">&copy; 2025 Suleiman. All Rights Reserved.</div>
             <div>
                 <ul className="list-inline">
                     <li className="list-inline-item">
