@@ -20,24 +20,24 @@ export default function Footer() {
                     <FaLinkedin />
                 </a>
             </div>
-            <div className="footer-text">&copy; 2025 Suleiman. All Rights Reserved.</div>
+            <div className="footer-text">جميع الحقوق محفوظة لصالح شركة سليمان  &copy; 2025</div>
             <div>
                 <ul className="list-inline">
                     <li className="list-inline-item">
                         <a href="#" className="text-decoration-none">
-                            Privacy Policy
+                        سياسة الخصوصية
                         </a>
                     </li>
                     <li className="list-inline-item">|</li>
                     <li className="list-inline-item">
                         <a href="#" className="text-decoration-none">
-                            Terms of Service
+                        شروط الخدمة
                         </a>
                     </li>
                     <li className="list-inline-item">|</li>
                     <li className="list-inline-item">
                         <a href="#" className="text-decoration-none">
-                            Contact Us
+                        اتصل بنا
                         </a>
                     </li>
                 </ul>
@@ -47,64 +47,3 @@ export default function Footer() {
     
     );
 }
-/*
-
-<footer className="text-center mt-auto">
-    <div className="container p-2">
-       
-        <div className="row mb-2">
-            <div className="col-12">
-                <a href="#" className="mx-2">
-                    <FaFacebookF />
-                </a>
-                <a href="#" className="mx-2">
-                    <FaTwitter />
-                </a>
-                <a href="#" className="mx-2">
-                    <FaInstagram />
-                </a>
-                <a href="#" className="mx-2">
-                    <FaLinkedin />
-                </a>
-            </div>
-        </div>
-
-        
-        <div className="row mb-2">
-            <div className="col-12">
-                &copy; 2025 Suleiman. All Rights Reserved.
-            </div>
-        </div>
-
-        
-        <div className="row">
-            <div className="col-12">
-                <ul className="list-inline mb-0">
-                    <li className="list-inline-item">
-                        <a href="#" className="text-decoration-none">
-                            Privacy Policy
-                        </a>
-                    </li>
-                    <li className="list-inline-item">|</li>
-                    <li className="list-inline-item">
-                        <a href="#" className="text-decoration-none">
-                            Terms of Service
-                        </a>
-                    </li>
-                    <li className="list-inline-item">|</li>
-                    <li className="list-inline-item">
-                        <a href="#" className="text-decoration-none">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
-
-*/
