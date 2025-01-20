@@ -23,19 +23,19 @@ export default function Footer() {
             <div className="footer-text">جميع الحقوق محفوظة لصالح شركة سليمان  &copy; 2025</div>
             <div>
                 <ul className="list-inline">
-                    <li className="list-inline-item">
+                    <li className="list-inline-item footer-links">
                         <a href="#" className="text-decoration-none">
                         سياسة الخصوصية
                         </a>
                     </li>
                     <li className="list-inline-item">|</li>
-                    <li className="list-inline-item">
+                    <li className="list-inline-item footer-links">
                         <a href="#" className="text-decoration-none">
                         شروط الخدمة
                         </a>
                     </li>
                     <li className="list-inline-item">|</li>
-                    <li className="list-inline-item">
+                    <li className="list-inline-item footer-links">
                         <a href="#" className="text-decoration-none">
                         اتصل بنا
                         </a>

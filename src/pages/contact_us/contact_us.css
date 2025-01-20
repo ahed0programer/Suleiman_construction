@@ -1,0 +1,28 @@
+.main-container{
+    background-color: #343a40 !important ;
+    margin: 40px;
+    padding: 40px;
+}
+.textarea-form {
+    height: 150px !important;
+}
+.submit-btn {
+    background-color: #ffd700;
+    color: #343a40;
+    margin-top: 40px;
+    width: 150px;
+}
+.title {
+    color: #ffd700;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.contact-info{
+    padding-right:40px;
+    padding-top: 40px;
+}
+p svg {
+    font-size: 40px;
+    margin-left: 15px;
+    color: #ffd700;
+}

@@ -20,3 +20,8 @@ body {
   margin-right: 250px;
 
 }
+@media (max-width: 768px) {
+  .content {
+    margin-right: 0;
+  }
+}

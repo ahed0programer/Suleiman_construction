@@ -2,6 +2,8 @@ footer {
     background-color: #ffd700;
     color: #343a40;
     text-align: center;
+    position: sticky;
+
 }
 
 
@@ -20,7 +22,11 @@ footer a svg {
     padding: 5px 10px  !important;
 }
 .list-inline-item:hover {
-    background-color: #E6C200; 
+    background-color: transparent;
+}
+
+.footer-links:hover {
+    background-color: #E6C200 !important; 
 }
 .list-inline {
     margin: 5px;
