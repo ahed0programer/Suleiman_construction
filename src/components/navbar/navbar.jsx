@@ -2,6 +2,7 @@ import './navbar.css'
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
+import minilogo from "./mini-logo.png"
 
 
 export default function MobileNavBar() {
@@ -14,24 +15,20 @@ export default function MobileNavBar() {
                 </Navbar.Toggle>
 
                 <Navbar.Brand href="#">
-                    {/*<img
-                        src="https://via.placeholder.com/40"
+                    <img
+                        src={minilogo}
                         alt="Logo"
-                        style={{ height: "40px" }}
-                    />*/}
-                    <h1>Suleiman</h1> {/*//todo add real logo*/}
+                        style={{ height: "50px" }}
+                    />
                 </Navbar.Brand>
-
-
-
-
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to='/' className='link'>Home</Link>
-                        <Link to='/products' className='link'>Our Products</Link>
-                        <Link to='/members' className='link'>Members</Link>
-                        <Link to='/contact' className='link'>Contact Us</Link>
+                        <Link to='/' className='link'> الرئيسة
+                        </Link>
+                        <Link to='/products' className='link'>منتجاتنا</Link>
+                        <Link to='/members' className='link'>الأعضاء</Link>
+                        <Link to='/contact' className='link'>اتصل بنا</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
